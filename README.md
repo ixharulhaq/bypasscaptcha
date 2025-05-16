@@ -53,3 +53,7 @@ Make sure Chrome is installed and compatible with your chromedriver.
 Script currently works with Google's reCAPTCHA v2 (checkbox version).
 
 Intended for educational and testing use only.
+
+**## Packages**
+
+npm install selenium-webdriver axios chromedriver
