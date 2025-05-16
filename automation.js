@@ -1,7 +1,7 @@
 const { Builder, By, until } = require('selenium-webdriver');
 const axios = require('axios');
 
-const TWO_CAPTCHA_API_KEY = '10c_8f016bbfd6a1b5a33dc4985e594852b0';
+const TWO_CAPTCHA_API_KEY = 'YOUR_API_KEY';
 const TARGET_URL = 'https://2captcha.com/demo/recaptcha-v2';
 const SITE_KEY = '6LfD3PIbAAAAAJs_eEHvoOl75_83eXSqpPSRFJ_u';
 
