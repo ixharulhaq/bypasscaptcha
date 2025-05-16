@@ -2,8 +2,8 @@ const { Builder, By, until } = require('selenium-webdriver');
 const axios = require('axios');
 
 const TWO_CAPTCHA_API_KEY = 'YOUR_API_KEY';
-const TARGET_URL = 'https://2captcha.com/demo/recaptcha-v2';
-const SITE_KEY = '6LfD3PIbAAAAAJs_eEHvoOl75_83eXSqpPSRFJ_u';
+const TARGET_URL = 'https://2captcha.com/demo/recaptcha-v2'; // HERE IS YOUR WEBSITE URL
+const SITE_KEY = '6LfD3PIbAAAAAJs_eEHvoOl75_83eXSqpPSRFJ_u'; // SITE KEY, CONTACT IF NEED HELP IN IT 
 
 (async () => {
   const driver = await new Builder().forBrowser('chrome').build();
