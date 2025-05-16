@@ -3,11 +3,7 @@ const axios = require('axios');
 
 const TWO_CAPTCHA_API_KEY = 'YOUR_API_KEY';
 const TARGET_URL = 'https://2captcha.com/demo/recaptcha-v2'; // HERE IS YOUR WEBSITE URL
-// const SITE_KEY = '6LfD3PIbAAAAAJs_eEHvoOl75_83eXSqpPSRFJ_u'; 
-
-const siteKeyElement = await driver.findElement(By.className('g-recaptcha'));
-const SITE_KEY = await siteKeyElement.getAttribute('data-sitekey');
-console.log('Extracted site key:', siteKey);
+const SITE_KEY = '6LfD3PIbAAAAAJs_eEHvoOl75_83eXSqpPSRFJ_u'; 
 
 (async () => {
   const driver = await new Builder().forBrowser('chrome').build();
